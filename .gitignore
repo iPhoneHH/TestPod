@@ -1,0 +1,6 @@
+Pods/
+.DS_Store
+docset-installed.txt
+TemplateProject.xcworkspace/
+TemplateProject.xcodeproj/xcuserdata/
+TemplateProject.xcodeproj/project.xcworkspace/xcuserdata/

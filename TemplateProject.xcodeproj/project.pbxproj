@@ -54,12 +54,20 @@
 		4A785B032171FC9A002C16BD /* TemplateProject */ = {
 			isa = PBXGroup;
 			children = (
+				4A785B162171FCBA002C16BD /* TemplateProject */,
 				4A785B042171FC9A002C16BD /* AppDelegate.swift */,
 				4A785B062171FC9A002C16BD /* ViewController.swift */,
 				4A785B082171FC9A002C16BD /* Main.storyboard */,
 				4A785B0B2171FC9B002C16BD /* Assets.xcassets */,
 				4A785B0D2171FC9B002C16BD /* LaunchScreen.storyboard */,
 				4A785B102171FC9B002C16BD /* Info.plist */,
+			);
+			path = TemplateProject;
+			sourceTree = "<group>";
+		};
+		4A785B162171FCBA002C16BD /* TemplateProject */ = {
+			isa = PBXGroup;
+			children = (
 			);
 			path = TemplateProject;
 			sourceTree = "<group>";
