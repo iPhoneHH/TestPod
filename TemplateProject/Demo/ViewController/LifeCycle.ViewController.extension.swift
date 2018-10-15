@@ -7,10 +7,16 @@
 //
 
 import UIKit
+import SwiftHandyFrame
 
 extension ViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         view.addSubview(tableView)
+    }
+    
+    override func viewWillLayoutSubviews() {
+        super.viewWillLayoutSubviews()
+        tableView.ct_fill()
     }
 }
