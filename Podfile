@@ -7,5 +7,7 @@ source 'https://github.com/CocoaPods/Specs.git'
 use_frameworks!
 
 target 'TemplateProject' do
+
+pod "SwiftHandyFrame"
  
 end

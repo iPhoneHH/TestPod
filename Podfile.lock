@@ -1,0 +1,16 @@
+PODS:
+  - SwiftHandyFrame (5)
+
+DEPENDENCIES:
+  - SwiftHandyFrame
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - SwiftHandyFrame
+
+SPEC CHECKSUMS:
+  SwiftHandyFrame: d2c11d3774d73a103cd6287c0933f97ab459d6ff
+
+PODFILE CHECKSUM: 323e3b179de03a95129dde10870292d9c51658fc
+
+COCOAPODS: 1.6.0.beta.1
