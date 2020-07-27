@@ -1,7 +1,7 @@
 Pods/
 .DS_Store
 docset-installed.txt
-TemplateProject.xcworkspace/
-TemplateProject.xcodeproj/xcuserdata/
-TemplateProject.xcodeproj/project.xcworkspace/xcuserdata/
+MBSpyRoom_iOS.xcworkspace/
+MBSpyRoom_iOS.xcodeproj/xcuserdata/
+MBSpyRoom_iOS.xcodeproj/project.xcworkspace/xcuserdata/
 *.swp

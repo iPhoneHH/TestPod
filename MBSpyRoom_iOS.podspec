@@ -15,9 +15,9 @@ Pod::Spec.new do |s|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  s.name         = "TemplateProject"
+  s.name         = "MBSpyRoom_iOS"
   s.version      = "1"
-  s.summary      = "TemplateProject."
+  s.summary      = "MBSpyRoom_iOS."
   s.swift_version= "4.2"
 
   # This description is used to generate tags and improve search results.
@@ -26,10 +26,10 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
-                    this is TemplateProject
+                    this is MBSpyRoom_iOS
                    DESC
 
-  s.homepage     = "__HomePage__"
+  s.homepage     = "https://github.com/iPhoneHH/TestPod"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -81,7 +81,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "__HTTPSRepo__", :tag => s.version.to_s }
+  s.source       = { :git => "https://github.com/iPhoneHH/TestPod.git", :tag => s.version.to_s }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -92,7 +92,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "TemplateProject/TemplateProject/**/*.{h,m,swift}"
+  s.source_files  = "MBSpyRoom_iOS/MBSpyRoom_iOS/**/*.{h,m,swift}"
   # s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"

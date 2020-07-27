@@ -14,11 +14,11 @@
 		4A8439AD21747D9E00469D4A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A8439AC21747D9E00469D4A /* ViewController.swift */; };
 		4A8439AF21747E1E00469D4A /* UITableView.ViewController.extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A8439AE21747E1E00469D4A /* UITableView.ViewController.extension.swift */; };
 		4A8439B121747E2D00469D4A /* LifeCycle.ViewController.extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A8439B021747E2D00469D4A /* LifeCycle.ViewController.extension.swift */; };
-		C180348868296149D3AA23BD /* Pods_TemplateProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92236FA54080C07912CA4E8A /* Pods_TemplateProject.framework */; };
+		C180348868296149D3AA23BD /* Pods_MBSpyRoom_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92236FA54080C07912CA4E8A /* Pods_MBSpyRoom_iOS.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4A785B012171FC9A002C16BD /* TemplateProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TemplateProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A785B012171FC9A002C16BD /* MBSpyRoom_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MBSpyRoom_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A785B042171FC9A002C16BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4A785B092171FC9A002C16BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4A785B0B2171FC9B002C16BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -27,9 +27,9 @@
 		4A8439AC21747D9E00469D4A /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4A8439AE21747E1E00469D4A /* UITableView.ViewController.extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableView.ViewController.extension.swift; sourceTree = "<group>"; };
 		4A8439B021747E2D00469D4A /* LifeCycle.ViewController.extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeCycle.ViewController.extension.swift; sourceTree = "<group>"; };
-		5772A3CAAFC4AE0614DB2DA8 /* Pods-TemplateProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TemplateProject.release.xcconfig"; path = "Target Support Files/Pods-TemplateProject/Pods-TemplateProject.release.xcconfig"; sourceTree = "<group>"; };
-		92236FA54080C07912CA4E8A /* Pods_TemplateProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TemplateProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AC324379E7B892C03B8780B1 /* Pods-TemplateProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TemplateProject.debug.xcconfig"; path = "Target Support Files/Pods-TemplateProject/Pods-TemplateProject.debug.xcconfig"; sourceTree = "<group>"; };
+		5772A3CAAFC4AE0614DB2DA8 /* Pods-MBSpyRoom_iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MBSpyRoom_iOS.release.xcconfig"; path = "Target Support Files/Pods-MBSpyRoom_iOS/Pods-MBSpyRoom_iOS.release.xcconfig"; sourceTree = "<group>"; };
+		92236FA54080C07912CA4E8A /* Pods_MBSpyRoom_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MBSpyRoom_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC324379E7B892C03B8780B1 /* Pods-MBSpyRoom_iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MBSpyRoom_iOS.debug.xcconfig"; path = "Target Support Files/Pods-MBSpyRoom_iOS/Pods-MBSpyRoom_iOS.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,7 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C180348868296149D3AA23BD /* Pods_TemplateProject.framework in Frameworks */,
+				C180348868296149D3AA23BD /* Pods_MBSpyRoom_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -47,7 +47,7 @@
 		4A785AF82171FC9A002C16BD = {
 			isa = PBXGroup;
 			children = (
-				4A785B032171FC9A002C16BD /* TemplateProject */,
+				4A785B032171FC9A002C16BD /* MBSpyRoom_iOS */,
 				4A785B022171FC9A002C16BD /* Products */,
 				FA74C3BD4A3437D3EBC66A0E /* Pods */,
 				DED709CD407F4D0543B4EFDD /* Frameworks */,
@@ -57,15 +57,15 @@
 		4A785B022171FC9A002C16BD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4A785B012171FC9A002C16BD /* TemplateProject.app */,
+				4A785B012171FC9A002C16BD /* MBSpyRoom_iOS.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4A785B032171FC9A002C16BD /* TemplateProject */ = {
+		4A785B032171FC9A002C16BD /* MBSpyRoom_iOS */ = {
 			isa = PBXGroup;
 			children = (
-				4A785B162171FCBA002C16BD /* TemplateProject */,
+				4A785B162171FCBA002C16BD /* MBSpyRoom_iOS */,
 				4A8439AA21747D9E00469D4A /* Demo */,
 				4A785B042171FC9A002C16BD /* AppDelegate.swift */,
 				4A785B082171FC9A002C16BD /* Main.storyboard */,
@@ -73,14 +73,14 @@
 				4A785B0D2171FC9B002C16BD /* LaunchScreen.storyboard */,
 				4A785B102171FC9B002C16BD /* Info.plist */,
 			);
-			path = TemplateProject;
+			path = MBSpyRoom_iOS;
 			sourceTree = "<group>";
 		};
-		4A785B162171FCBA002C16BD /* TemplateProject */ = {
+		4A785B162171FCBA002C16BD /* MBSpyRoom_iOS */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = TemplateProject;
+			path = MBSpyRoom_iOS;
 			sourceTree = "<group>";
 		};
 		4A8439AA21747D9E00469D4A /* Demo */ = {
@@ -104,7 +104,7 @@
 		DED709CD407F4D0543B4EFDD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				92236FA54080C07912CA4E8A /* Pods_TemplateProject.framework */,
+				92236FA54080C07912CA4E8A /* Pods_MBSpyRoom_iOS.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -112,8 +112,8 @@
 		FA74C3BD4A3437D3EBC66A0E /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				AC324379E7B892C03B8780B1 /* Pods-TemplateProject.debug.xcconfig */,
-				5772A3CAAFC4AE0614DB2DA8 /* Pods-TemplateProject.release.xcconfig */,
+				AC324379E7B892C03B8780B1 /* Pods-MBSpyRoom_iOS.debug.xcconfig */,
+				5772A3CAAFC4AE0614DB2DA8 /* Pods-MBSpyRoom_iOS.release.xcconfig */,
 			);
 			name = Pods;
 			path = Pods;
@@ -122,9 +122,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4A785B002171FC9A002C16BD /* TemplateProject */ = {
+		4A785B002171FC9A002C16BD /* MBSpyRoom_iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4A785B132171FC9B002C16BD /* Build configuration list for PBXNativeTarget "TemplateProject" */;
+			buildConfigurationList = 4A785B132171FC9B002C16BD /* Build configuration list for PBXNativeTarget "MBSpyRoom_iOS" */;
 			buildPhases = (
 				D67993149156C0DC88E148E7 /* [CP] Check Pods Manifest.lock */,
 				4A785AFD2171FC9A002C16BD /* Sources */,
@@ -136,9 +136,9 @@
 			);
 			dependencies = (
 			);
-			name = TemplateProject;
-			productName = TemplateProject;
-			productReference = 4A785B012171FC9A002C16BD /* TemplateProject.app */;
+			name = MBSpyRoom_iOS;
+			productName = MBSpyRoom_iOS;
+			productReference = 4A785B012171FC9A002C16BD /* MBSpyRoom_iOS.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -156,7 +156,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 4A785AFC2171FC9A002C16BD /* Build configuration list for PBXProject "TemplateProject" */;
+			buildConfigurationList = 4A785AFC2171FC9A002C16BD /* Build configuration list for PBXProject "MBSpyRoom_iOS" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -169,7 +169,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4A785B002171FC9A002C16BD /* TemplateProject */,
+				4A785B002171FC9A002C16BD /* MBSpyRoom_iOS */,
 			);
 		};
 /* End PBXProject section */
@@ -194,20 +194,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-TemplateProject/Pods-TemplateProject-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/SwiftHandyFrame/SwiftHandyFrame.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-MBSpyRoom_iOS/Pods-MBSpyRoom_iOS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftHandyFrame.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-MBSpyRoom_iOS/Pods-MBSpyRoom_iOS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TemplateProject/Pods-TemplateProject-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MBSpyRoom_iOS/Pods-MBSpyRoom_iOS-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		D67993149156C0DC88E148E7 /* [CP] Check Pods Manifest.lock */ = {
@@ -225,7 +220,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-TemplateProject-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-MBSpyRoom_iOS-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -386,16 +381,16 @@
 		};
 		4A785B142171FC9B002C16BD /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AC324379E7B892C03B8780B1 /* Pods-TemplateProject.debug.xcconfig */;
+			baseConfigurationReference = AC324379E7B892C03B8780B1 /* Pods-MBSpyRoom_iOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = TemplateProject/Info.plist;
+				INFOPLIST_FILE = MBSpyRoom_iOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = casa.TemplateProject;
+				PRODUCT_BUNDLE_IDENTIFIER = casa.MBSpyRoom_iOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -404,16 +399,16 @@
 		};
 		4A785B152171FC9B002C16BD /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5772A3CAAFC4AE0614DB2DA8 /* Pods-TemplateProject.release.xcconfig */;
+			baseConfigurationReference = 5772A3CAAFC4AE0614DB2DA8 /* Pods-MBSpyRoom_iOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = TemplateProject/Info.plist;
+				INFOPLIST_FILE = MBSpyRoom_iOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = casa.TemplateProject;
+				PRODUCT_BUNDLE_IDENTIFIER = casa.MBSpyRoom_iOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -423,7 +418,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4A785AFC2171FC9A002C16BD /* Build configuration list for PBXProject "TemplateProject" */ = {
+		4A785AFC2171FC9A002C16BD /* Build configuration list for PBXProject "MBSpyRoom_iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4A785B112171FC9B002C16BD /* Debug */,
@@ -432,7 +427,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4A785B132171FC9B002C16BD /* Build configuration list for PBXNativeTarget "TemplateProject" */ = {
+		4A785B132171FC9B002C16BD /* Build configuration list for PBXNativeTarget "MBSpyRoom_iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4A785B142171FC9B002C16BD /* Debug */,
